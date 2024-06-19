@@ -23,7 +23,7 @@ To use the Pomodoro Timer locally, follow these steps:
 2. Navigate ectory: `cd pomodoro-timer`
 3. Open the `index.html` file in your preferred web browser.
 
-Alternatively, you can access the live version of the Pomodoro Timer by visiting [insert-live-url-here].
+Alternatively, you can access the live version of the Pomodoro Timer by visiting [[Pomodoro-Timer-Live](https://pomodorto-timer.vercel.app/)].
 
 ## Usage
 
