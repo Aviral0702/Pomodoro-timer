@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="heading">Pomodoro Timer</h1>
+    <div class="differs">
+        <button id="work">Work</button>
+        <button id="break">Break</button>
+    </div>
+    <div class="timer">
+        <div class="time">
+            <span id="minutes">25</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+        </div>
+        <div class="buttons">
+            <button id="start" onclick= "start()" >Start</button>
+            <button id="pause" onclick="pause()">Pause</button>
+        </div>
+        <div>
+            <a href="./"><button id="reset" onclick="reset()">Reset</button></a>
+        </div>
+</body>
+<script src = './index.js' ></script>
+</html>
